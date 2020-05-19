@@ -1,4 +1,4 @@
 #!/bin/bash
-jupyter nbextension uninstall --user webio/main
-jupyter nbextension uninstall --user webio-jupyter-notebook
+#jupyter nbextension uninstall --user webio/main
+#jupyter nbextension uninstall --user webio-jupyter-notebook
 julia -e 'using WebIO; WebIO.install_jupyter_nbextension();'
